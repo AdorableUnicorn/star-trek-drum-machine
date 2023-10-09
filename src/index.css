@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding:0;
+
+}
+
+body{
+  height: 100vh;
+  background-image: url('./139428.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#drum-machine{
+  width: 30vw;
+  height: 40vh;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#display{
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+button{
+  border: none;
+  width: 30%;
+  height: 25%;
+  margin: 2px;
+  opacity: 0.6;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 24px;;
+
+}
+
+#Q,#W,#E{
+  background-color: #0099f6;
+}
+#A,#S,#D{
+  background-color: #d6a444;
+
+}
+#Z,#X,#C{
+  background-color: #a71313	;
+}
+button:hover{
+  box-shadow: 3px 3px 3px 1px rgb(255,255,255, 0.6);
 }
