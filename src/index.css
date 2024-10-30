@@ -1,64 +1,69 @@
-:root{
-
-}
-
-*{
+* {
   margin: 0;
-  padding:0;
-
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
-  background-image: url('./139428.jpg');
+  background-image: url("./139428.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#drum-machine{
-  width: 30vw;
-  height: 40vh;
-  display: flex;
+#drum-machine {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 80px 80px 80px 80px;
+  grid-template-areas:
+    "display display display"
+    "Q W E"
+    "A S D"
+    "Z X C";
   align-items: stretch;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: stretch;
+  gap: 10px;
 }
 
-#display{
-  width: 100%;
+#display {
   color: white;
-  text-align: center;
-  font-size: 36px;
   font-weight: bold;
-  margin-bottom: 10px;
   opacity: 0.8;
+  grid-area: display;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-button{
+button {
   border: none;
-  width: 30%;
-  height: 25%;
-  margin: 2px;
   opacity: 0.6;
   border-radius: 10px;
   color: whitesmoke;
   font-weight: bolder;
-  font-size: 24px;;
-
+  font-size: 24px;
 }
 
-#Q,#W,#E{
+button:hover {
+  box-shadow: 3px 3px 3px 1px rgb(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+
+#Q,
+#W,
+#E {
   background-color: #0099f6;
 }
-#A,#S,#D{
+#A,
+#S,
+#D {
   background-color: #d6a444;
-
 }
-#Z,#X,#C{
-  background-color: #a71313	;
-}
-button:hover{
-  box-shadow: 3px 3px 3px 1px rgb(255,255,255, 0.6);
+#Z,
+#X,
+#C {
+  background-color: #a71313;
 }
