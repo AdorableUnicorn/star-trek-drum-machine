@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/star-trek-drum-machine/static/css/main.ccf8374d.css",
+    "main.js": "/star-trek-drum-machine/static/js/main.b11cfce5.js",
+    "static/media/139428.jpg": "/star-trek-drum-machine/static/media/139428.0db6f97f5cecacfff38c.jpg",
+    "static/media/voice_spock_mostillogical.mp3": "/star-trek-drum-machine/static/media/voice_spock_mostillogical.e8c6b4024a4e6d34a309.mp3",
+    "static/media/voice_spock_vulcansneverbluff.mp3": "/star-trek-drum-machine/static/media/voice_spock_vulcansneverbluff.3cc89031fef6a747d434.mp3",
+    "static/media/tng-picard-engage.mp3": "/star-trek-drum-machine/static/media/tng-picard-engage.4674ebaecd0fe361358e.mp3",
+    "static/media/voice_spock_fascinating.mp3": "/star-trek-drum-machine/static/media/voice_spock_fascinating.ea3a94a47b629e44532f.mp3",
+    "static/media/tng-data-ihaveaccess.mp3": "/star-trek-drum-machine/static/media/tng-data-ihaveaccess.3dd2ca1fc5bc111b6413.mp3",
+    "static/media/tng-picard-statusreport.mp3": "/star-trek-drum-machine/static/media/tng-picard-statusreport.80e9709b52d3950e7ebd.mp3",
+    "static/media/tng-data-allsystems.mp3": "/star-trek-drum-machine/static/media/tng-data-allsystems.0e0ff4e55307038c87b5.mp3",
+    "static/media/tng-picard-makeitso.mp3": "/star-trek-drum-machine/static/media/tng-picard-makeitso.6747bb91604c40d2de50.mp3",
+    "static/media/tng-data-beinghailed.mp3": "/star-trek-drum-machine/static/media/tng-data-beinghailed.4d2b1d4d7a7106716076.mp3",
+    "index.html": "/star-trek-drum-machine/index.html",
+    "main.ccf8374d.css.map": "/star-trek-drum-machine/static/css/main.ccf8374d.css.map",
+    "main.b11cfce5.js.map": "/star-trek-drum-machine/static/js/main.b11cfce5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccf8374d.css",
+    "static/js/main.b11cfce5.js"
+  ]
+}
